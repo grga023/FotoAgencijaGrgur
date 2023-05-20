@@ -1,0 +1,28 @@
+{
+  "slike": [
+    {
+      "src": "./slike/najpopularnija-foto-1.jpg",
+      "alt": "pcela"
+    },
+    {
+      "src": "./slike/najpopularnija-foto-2.jpg",
+      "alt": "planina"
+    },
+    {
+      "src": "./slike/najpopularnija-foto-3.jpg",
+      "alt": "zalazak sunca"
+    },
+    {
+      "src": "./slike/najpopularnija-foto-4.jpg",
+      "alt": "zivot na planini"
+    },
+    {
+      "src": "./slike/najpopularnija-foto-5.jpg",
+      "alt": "priroda"
+    },
+    {
+      "src": "./slike/najpopularnija-foto-6.jpg",
+      "alt": "munje"
+    }
+  ]
+}

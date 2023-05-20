@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sr" data-tema="svetla">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Želimo da se svaki klijent osjeća posebno i jedinstveno, a naše fotografije će im pomoći da zauvek zabeleže važne trenutke u njihovom životu.">
+  <meta name="keywords" content="misija, vizija, istorija, zadovoljni klijenti, ui/ux">
+  <meta name="author" content="Ognjen Grgur">
+  <title>Foto agencija Grgur - O nama</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./navigacija.js" defer></script>
+  <script src="./slajder.js" defer></script>
+  <script src="./tamnaTema.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="kontejner">
+      <div class="navigacija-kontejner">
+        <a href="./index.html">
+          <img src="./slike/logo.svg" alt="logo agencije">
+        </a>
+        <button class="meni-dugme">
+          <img src="./slike/hamburger.png" alt="meni ikonica" class="meni meni-otvoren">
+          <img src="./slike/hamburger closed.png" alt="meni ikonica" class="meni meni-zatvoren">
+        </button>
+          <nav class="navigacija">
+            <a href="./index.html">Početna</a>
+            <div class="ugnjezdena-lista">
+              <div>
+                <a href="./o-nama.html" class="aktivna-stranica">O nama</a>
+                <img src="./slike/strelica.svg" alt="strelica" class="strelica">
+              </div>
+              <a href="./usluge.html">Usluge</a>
+            </div>
+            <a href="./kontakt.html">Kontakt</a>
+          </nav>
+          <button class="dugme-tamna-tema">
+              <span></span>
+            </button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="slajder">
+      <div class="slajd aktivan">
+        <img src="./slike/slajder-slika-1.jpg" alt="slajd 1">
+      </div>
+      <div class="slajd">
+        <img src="./slike/slajder-slika-2.jpg" alt="slajd 2">
+      </div>
+      <div class="slajd">
+        <img src="./slike/slajder-slika-3.jpg" alt="slajd 3">
+      </div>
+      <div class="slajd">
+        <img src="./slike/slajder-slika-4.jpg" alt="slajd 4">
+      </div>
+      <a class="prethodniSlajd" onclick="promeniSlajd(-1)">&#10094;</a>
+      <a class="sledeciSlajd" onclick="promeniSlajd(1)">&#10095;</a>
+    </div>
+    <div class="kontejner">
+      <section class="o-nama-sekcija">
+        <article>
+          <h2>Misija i vizija</h2>
+          <p><span class="misija-i-vizija">Naša misija</span> je stvoriti nezaboravne uspomene za naše klijente kroz visokokvalitetne fotografije koje pričaju priče. Želimo da se svaki klijent osjeća posebno i jedinstveno, a naše fotografije će im pomoći da zauvek zabeleže važne trenutke u njihovom životu.</p>
+          <p><span class="misija-i-vizija">Naša vizija</span> je postati vodeća foto agencija u regiji koja pruža usluge koje nadilaze očekivanja klijenata. Želimo biti prepoznati kao stručnjaci za fotografiju koji uvijek prate najnovije trendove i tehnologije kako bi pružili najbolju vrijednost i iskustvo svojim klijentima.</p>
+        </article>
+        <article>
+          <h2>Istorija</h2>
+          <p>Naša foto agencija osnovana je 2010. godine s ciljem pružanja vrhunskih fotografija za različite prilike, poput vjenčanja, portreta, poslovnih događaja i drugih posebnih prilika. Od samog početka, naša agencija je stekla reputaciju kao jedan od najpouzdanijih i najkreativnijih fotografskih studija u našem regionu. Uz tim iskusnih i talentiranih fotografa, uspjeli smo stvoriti hiljade nezaboravnih uspomena za naše klijente, a mnogi su nam se klijenti vratili po više puta.</p>
+          <p>Kroz godine, proširili smo svoju ponudu fotografija, uključujući nove usluge poput fotografiranja hrane i proizvoda, arhitektonskih snimaka, te putovanja i turizma. Uvek smo pratili najnovije trendove i tehnologije kako bismo našim klijentima pružili najbolje moguće iskustvo i vrijednost.</p>
+          <p>Sada, više od deset godina kasnije, ponosni smo na našu istoriju i zahvalni smo našim klijentima na povjerenju koje su nam ukazali. U budućnosti, planiramo nastaviti širiti svoju ponudu usluga i pružati nezaboravne uspomene za naše klijente.</p>
+        </article>
+        <article class="klijenti">
+          <div>
+            <img src="./slike/starbucks.png" alt="klijent starbucks">
+          </div>
+          <div>
+            <img src="./slike/konti.png" alt="klijent kontinental">
+          </div>
+          <div>
+            <img src="./slike/stambolijski.png" alt="klijent stambolijski">
+          </div>
+          <div>
+            <img src="./slike/cropped-restoran-z-icon.png" alt="klijent restoran z">
+          </div>
+          <div>
+            <img src="./slike/adidas.png" alt="klijent adidas">
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="kontejner">
+      <div class="footer-kontejner">
+        <span>Copyrights &copy; 2023 Foto agencija Grgur</span>
+        <div class="navgijacija-footer">
+          <a href="https://facebook.com">
+            <img src="./slike/facebook logo.svg" alt="fejs logo" class="ikonica">
+          </a>
+          <a href="https://instagram.com">
+            <img src="./slike/insta logo.svg" alt="insta logo" class="ikonica">
+          </a>
+          <a href="https://linkedin.com">
+            <img src="./slike/linkedin.svg" alt="linkedin logo" class="ikonica">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
